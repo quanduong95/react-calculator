@@ -12,7 +12,8 @@ body {
 .calculator-grid {
   display: grid;
   justify-content: center;
-  margin-top: 9em;
+  margin-top: 0.2em;
+  height: 100vh;
   grid-template-columns: repeat(4,6rem);
   grid-template-rows: minmax(7rem, auto);
 }
